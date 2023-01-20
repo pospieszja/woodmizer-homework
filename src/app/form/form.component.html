@@ -1,0 +1,33 @@
+<div class="flex justify-center">
+    <div class="w-full max-w-xs content-center">
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="personName">
+                    Imię
+                </label>
+                <input [(ngModel)]="person.name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personName" type="text" placeholder="imię">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="personLastName">
+                    Nazwisko
+                </label>
+                <input [(ngModel)]="person.lastName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personLastName" type="text" placeholder="nazwisko">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="personAge">
+                    Wiek
+                </label>
+                <input [(ngModel)]="person.age" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personAge" type="number" placeholder="wiek">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="personGender">
+                    Płeć
+                </label>
+                <input [(ngModel)]="person.gender" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personGender" type="text" placeholder="płeć">
+            </div>
+        </div>
+    </div>
+</div>

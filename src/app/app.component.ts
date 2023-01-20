@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Person } from '../app/person';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'woodmizer-homework';
+  person:Person = {name: 'Jacek', lastName: 'Pospieszyński', age: 37, gender: 'Male'};
 }
