@@ -6,6 +6,7 @@ import { Person } from '../app/person';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  person:Person = {name: 'Jacek', lastName: 'Pospieszyński', age: 37, gender: 'Male'};
+  person = new Person();
 }

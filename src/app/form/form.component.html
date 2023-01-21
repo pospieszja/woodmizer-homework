@@ -23,11 +23,17 @@
             </div>
 
             <div class="mb-4">
+
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="personGender">
                     Płeć
                 </label>
-                <input [(ngModel)]="person.gender" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personGender" type="text" placeholder="płeć">
-            </div>
+
+                <select [(ngModel)]="person.gender" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="personGender" type="text">
+                    <option value="">--wybierz płeć--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+           </div>
         </div>
     </div>
 </div>
